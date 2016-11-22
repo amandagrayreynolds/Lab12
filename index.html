@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="AmandaApp">
+<head>
+    <title>Surprise!</title>
+</head>
+<body>
+    <div id="container">
+    <nav>
+        <a href="#/cat">Cat</a>
+        <a href="#/dog">Dog</a>
+        <a href="#/pig">Pig</a>
+        <a href="#/sloth">Sloth</a>
+
+    </nav>
+    <div ng-view="">Loading...</div>
+</div>
+    
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</body>
+</html>
